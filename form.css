@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url("../asset/bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.user {
+  width: 80%;
+  max-width: 350px;
+  margin: 8em auto;
+}
+
+.user .user-header {
+  text-align: center;
+}
+
+.user .user-title {
+  color: black;
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 2em;
+  letter-spacing: 0.1em;
+}
+
+.form {
+  background: radial-gradient(
+    20% 35% 50%,
+    rgba(255, 255, 255, 0.4),
+    rgba(0, 0, 0, 0)
+  );
+  backdrop-filter: blur(30px);
+  border-radius: 8px;
+}
+
+.form .form-group .form-input,
+#btn,
+#btn2 {
+  display: block;
+  width: 100%;
+  background: transparent;
+  text-align: start;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin: 5px auto;
+  border-radius: 5px;
+  border: 0;
+  transition: all 0.5 ease-in;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.form-input {
+  padding-left: 30px !important;
+}
+
+.form-input:focus,
+.form-input:active {
+  border: none !important;
+}
+
+#btn,
+#btn2 {
+  background: #aba194 !important;
+  border-radius: 0 0 10px 10px;
+  text-align: center !important;
+  padding: 25px;
+  font-weight: 700;
+  display: block;
+  cursor: pointer;
+  transition: all 0.9 ease-in-out;
+}
+
+#btn2 {
+  color: black;
+  text-decoration: none;
+}
+
+#btn2:hover,
+#btn:hover {
+  background-color: #ac5318e5 !important;
+  color: #fff;
+  transform: scale(1.02);
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="form.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="user">
+      <header class="user-header">
+        <p class="user-title">Ayo Daftar segera.</p>
+      </header>
+      <form class="form">
+        <div class="form-group">
+          <input
+            id="user"
+            type="text"
+            name="username"
+            class="name form-input"
+            placeholder="Nama Panjang"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            id="email"
+            type="email"
+            name="email"
+            class="email form-input"
+            placeholder="Email"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            id="phone"
+            type="text"
+            name="phone"
+            class="phone form-input"
+            placeholder="phone Number"
+          />
+        </div>
+        <div class="form-group">
+          <input
+            id="password"
+            type="password"
+            name="password"
+            class="password form-input"
+            placeholder="Password"
+          />
+        </div>
+        <button id="btn" type="submit" onclick="showAlert()">Submit</button>
+        <a id="btn2" href="./product.html">Product</a>
+      </form>
+    </div>
+    <script src="form.js"></script>
+  </body>
+</html>
